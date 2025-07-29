@@ -11,6 +11,11 @@ a[href^="tel"] {
   text-decoration: none;
 }
 
+a {
+  color: inherit;         
+  text-decoration: none;   
+}
+
 .top-bar {
   position: fixed;
   top: 0; left: 0; right: 0;
@@ -28,6 +33,7 @@ a[href^="tel"] {
   z-index: 10001;
   border-bottom: 1px solid #ccc;
 }
+
 .top-bar img,
 .top-bar svg {
   height: 16px;
